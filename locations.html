@@ -1,0 +1,67 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="col-1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="volunteers.html">Volunteers</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="tasks.html">Available Tasks</a></li>
+        </ul>
+    </nav>
+<div class="col-2">
+<form class="boilerform" action="" method="post">
+    <h1 class="o-heading">Locations</h1>
+    <table class="styled-table"> 
+        <thead> 
+            <tr> 
+                <th><a href="#">Update</a></th> 
+                <th>     </th> 
+                <th>Location ID</th> 
+                <th>Address</th> 
+                <th>Name</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            <tr> 
+                <td><a href="#">Edit</a></td>
+                <td><a href="#">Delete</a></td>
+                <td>1</td> 
+                <td>2738 Stonepot Road</td> 
+                <td>Eastford Food Bank</td> 
+                
+            </tr> 
+        </tbody> 
+    </table>
+
+    <h1 class="o-heading">Add a New Location</h1>
+    <div class="c-signup">
+        <div class="c-signup__field">
+            <label for="address" class="c-label">Address: </label>
+            <input type="text" name="address" id="address" class="c-input-field" />
+        </div>
+        <div class="c-signup__field">
+            <label for="location_name" class="c-label">Location Name: </label>
+            <input type="number" name="location_name" id="location_name" class="c-input-field" />
+        </div>
+        
+        </div>
+        <div class="c-signup__button">
+            <button class="c-button" type="submit">Add New Location</button>
+        </div>
+        <div id="delete" style="display: block">
+            <form id="delete_location">
+                <legend><strong>Delete Volunteer</strong></legend>
+                    <fieldset>
+                    <p>Are you sure you wish to delete the following?</p>
+                    <input type="checkbox" id="volunteer_id" name="location_id" value="1">
+                    <label for="location_id"> Location 1 </label><br>
+                    <input class="c-button" type="submit" id="delete_location" value="Delete">
+                    <input class="btn" type="button" value="cancel" >
+    </div>
+    </div>
+</form>
+</div>
+</body>

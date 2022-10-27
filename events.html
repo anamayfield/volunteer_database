@@ -1,0 +1,73 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="col-1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="volunteers.html">Volunteers</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="tasks.html">Available Tasks</a></li>
+        </ul>
+    </nav>
+<div class="col-2">
+<form class="boilerform" action="" method="post">
+    <h1 class="o-heading">Events</h1>
+    <table class="styled-table"> 
+        <thead> 
+            <tr> 
+                <th><a href="#">Update</a></th> 
+                <th>     </th> 
+                <th>Event Description</th> 
+                <th>Date</th> 
+                <th>Location ID</th>
+                <th>Event ID</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            <tr> 
+                <td><a href="#">Edit</a></td>
+                <td><a href="#">Delete</a></td>
+                <td>Donation collection for children's hospital</td> 
+                <td>2022-10-31</td> 
+                <td>1</td> 
+                <td>1</td> 
+            </tr> 
+        </tbody> 
+    </table>
+
+    <h1 class="o-heading">Add a New Event</h1>
+    <div class="c-signup">
+        <div class="c-signup__field">
+            <label for="event_description" class="c-label">Event Description</label>
+            <input type="text" name="event_description" id="event_description" class="c-input-field" />
+        </div>
+        <div class="c-signup__field">
+            <label for="date" class="c-label">Date</label>
+            <input type="date" name="date" id="date" class="c-input-field" />
+        </div>
+        <div class="c-signup__field">
+            <label for="location_id" class="c-label">Location ID</label>
+            <input type="number" name="location_id" id="location_id" class="c-input-field" />
+        </div>
+        
+        </div>
+        <div class="c-signup__button">
+            <button class="c-button" type="submit">Add New Event</button>
+        </div>
+        <div id="delete" style="display: block">
+            <form id="delete_volunteer">
+                <legend><strong>Delete Volunteer</strong></legend>
+                    <fieldset>
+                    <p>Are you sure you wish to delete the following?</p>
+                    <input type="checkbox" id="event_id" name="event_id" value="1">
+                    <label for="event_id"> Event 1 </label><br>
+                    <input class="c-button" type="submit" id="delete_event" value="Delete">
+                    <input class="btn" type="button" value="cancel" >
+    </div>
+    </div>
+    
+</form>
+</div>
+</body>
