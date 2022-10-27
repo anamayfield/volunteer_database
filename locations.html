@@ -35,22 +35,21 @@
             </tr> 
         </tbody> 
     </table>
+    <form id="addItem">
+        <legend><strong>Add New Location</strong></legend>
+          <fieldset class="fields">
+            <label class="c-label">Address: </label>
+            <input type="text" name="address">
+            <label> Location Name: </label> 
+            <input type="text" name="location_name">
+            
+          </fieldset>
+          <input class="btn" type="button" id="addItem" value="Add a Volunteer">
+          <input class="btn" type="button" value="Cancel">
+	</form> 
 
-    <h1 class="o-heading">Add a New Location</h1>
-    <div class="c-signup">
-        <div class="c-signup__field">
-            <label for="address" class="c-label">Address: </label>
-            <input type="text" name="address" id="address" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="location_name" class="c-label">Location Name: </label>
-            <input type="number" name="location_name" id="location_name" class="c-input-field" />
-        </div>
-        
-        </div>
-        <div class="c-signup__button">
-            <button class="c-button" type="submit">Add New Location</button>
-        </div>
+
+    
         <div id="delete" style="display: block">
             <form id="delete_location">
                 <legend><strong>Delete Volunteer</strong></legend>

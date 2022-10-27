@@ -38,25 +38,21 @@
             </tr> 
         </tbody> 
     </table>
+    <form id="addItem">
+        <legend><strong>Add New Task</strong></legend>
+          <fieldset class="fields">
+            <label class="c-label">Task Description: </label>
+            <input type="text" name="task_description">
+            <label> Event ID: </label> 
+            <input type="number" name="event_id">
+          </fieldset>
+          <input class="btn" type="button" id="addItem" value="Add a Volunteer">
+          <input class="btn" type="button" value="Cancel">
+	</form> 
 
-    <h1 class="o-heading">Add a New Task</h1>
-    <div class="c-signup">
-        <div class="c-signup__field">
-            <label for="task_description" class="c-label">Task Description: </label>
-            <input type="text" name="task_description" id="task_description" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="volunteer_id" class="c-label">Volunteer Registered: </label>
-            <input type="number" name="volunteer_id" id="volunteer_id" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="event_id" class="c-label">Event ID: </label>
-            <input type="number" name="event_id" id="event_id" class="c-input-field" />
-        </div>
-        </div>
-        <div class="c-signup__button">
-            <button class="c-button" type="submit">Add New Task</button>
-        </div>
+
+
+    
         <div id="delete" style="display: block">
             <form id="delete_task">
                 <legend><strong>Delete Task</strong></legend>
