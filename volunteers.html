@@ -45,41 +45,27 @@
         </tbody> 
     </table>
 
-    <h1 class="o-heading">Add a New Volunteer</h1>
-    <div class="c-signup">
-        <div class="c-signup__field">
-            <label for="first_name" class="c-label">First name</label>
-            <input type="text" name="first_name" id="first_name" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="last_name" class="c-label">Last name</label>
-            <input type="text" name="last_name" id="last_name" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="phone_number" class="c-label">Phone Number</label>
-            <input type="text" maxlength=5 name="phone_number" id="phone_number" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="zip_code" class="c-label">zip Code</label>
-            <input type="text" maxlength=5 name="zip_code" id="zip_code" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="hours_worked" class="c-label">Hours Worked</label>
-            <input type="number" name="hours_worked" id="hours_worked" class="c-input-field" />
-        </div>
-        <div class="c-signup__field">
-            <label for="last_day" class="c-label">Last Day Active: </label>
-            <input type="date" name="last_day" id="last_day" class="c-input-field" />
-        </div>
-        <div class="c-signup__field c-signup__field--fill">
-            <label for="email" class="c-label">Email address: </label>
-            <input type="email" name="email" id="email" class="c-input-field" />
-        </div>
-        
-        </div>
-        <div class="c-signup__button">
-            <button class="c-button" type="submit">Add New Volunteer</button>
-        </div>
+    <form id="addPlanet">
+        <legend><strong>Add New Volunteer</strong></legend>
+          <fieldset class="fields">
+            <label class="c-label">First Name: </label>
+            <input type="text" name="fname">
+            <label> Last Name: </label> 
+            <input type="text" name="lname">
+            <label> Phone Number </label> 
+            <input type="text" name="phone_number">
+            <label> zip Code: </label> 
+            <input type="text" maxlength= 5 name="zip_code">
+            <label> Hours Worked: </label> 
+            <input type="number" name="hours_worked">
+            <label> Last Day Active: </label> 
+            <input type="date" name="last_day">
+            <label> Email: </label> 
+            <input type="email" name="email">
+          </fieldset>
+          <input class="btn" type="submit" id="addItem" value="Add a Volunteer">
+          <input class="btn" type="button" value="cancel">
+	</form> 
         <div id="delete" style="display: block">
             <form id="delete_volunteer">
                 <legend><strong>Delete Volunteer</strong></legend>
