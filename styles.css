@@ -8,12 +8,17 @@
     margin: 0;
   }
 header, footer {
-    background: yellowgreen;
+    background: #7d94b5;
     height: 20vh;
   }
   header, footer, article, nav, aside {
     padding: 1em;
   }
+
+table, form {
+    margin:15px;
+    margin-bottom:40px;
+}
 
 
 .styled-table {
@@ -39,7 +44,7 @@ header, footer {
 
 
   .col-1 {
-    background: #D7E8D4;
+    background: #c8b7a6;
     flex: 1;
   }
   .col-2 {
@@ -56,8 +61,13 @@ header, footer {
     min-height: 60vh;
   }
   .content > aside {
-    background: beige;
+    background: #c29591;
     flex: 1;
   }
+
+  .heading {
+      padding-left:1em;
+  }
+
  
   
