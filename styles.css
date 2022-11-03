@@ -20,6 +20,16 @@ table, form {
     margin-bottom:40px;
 }
 
+select {
+  padding: 10px;
+  margin-right: 70em;
+}
+
+li {
+  list-style: none;
+  padding:5px;
+}
+
 
 .styled-table {
     border: solid 1px #DDEEEE;
@@ -50,7 +60,7 @@ table, form {
   .col-2 {
     display: flex;
     flex-direction: column;
-    flex: 5;
+    flex: 8;
   }
   .content {
     display: flex;

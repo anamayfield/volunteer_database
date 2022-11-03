@@ -1,0 +1,79 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="col-1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="volunteers.html">Volunteers</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="tasks.html">Available Tasks</a></li>
+        </ul>
+    </nav>
+<div class="col-2">
+<form class="" action="" method="post">
+    <h2 class="heading">Volunteer Details </h1>
+    <p>Marcel</p>
+    <table class="styled-table"> 
+        <thead> 
+            <tr> 
+                <th>Location</th> 
+                <th>Task</th> 
+                <th>Location ID</th>
+                <th>Task ID</th> 
+            </tr> 
+        </thead> 
+
+        <tbody> 
+            <tr> 
+                <td><a href="locations.html">Pecan Street</a></td> 
+                <td><a href="tasks.html">Pick up pecans on street.</a></td> 
+                <td>5</td> 
+                <td>7</td> 
+            </tr> 
+    
+            <tr> 
+                <td><a href="locations.html">Glenville</a></td> 
+                <td><a href="tasks.html">Clean up and decorate the cemetary.</a></td> 
+                <td>4</td> 
+                <td>6</td> 
+            </tr> 
+
+            <tr> 
+                <td><a href="locations.html">Rosewood</a></td> 
+                <td><a href="tasks.html">Community garden setup.</a></td> 
+                <td>6</td> 
+                <td>8</td> 
+            </tr> 
+            
+        </tbody> 
+    </table>
+   
+    <form id="addItem">
+        <legend><strong>Add Task and/or Location</strong></legend>
+          <fieldset class="fields">
+            <label class="c-label">Add Task: </label>
+            <input type="text" name="event_description">
+            <label> Add Location: </label> 
+            <input type="text" name="add_location">
+          </fieldset>
+          <br>
+          <input class="btn" type="button" id="addItem" value="Add">
+          <input class="btn" type="button" value="Cancel">
+    </form> 
+    
+    <label for="volunteer-list">Search other volunteers:</label>
+
+    <select name="volunteer-list" id="volunteer-list">
+      <option value="sam">Samuel</option>
+      <option value="lex">Alexis</option>
+      <option value="josh">Joshua</option>
+      <option value="ham">Hamilton</option>
+    </select>
+
+    </div>
+    
+</form>
+</div>
+</body>
